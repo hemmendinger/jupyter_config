@@ -6,9 +6,11 @@ Bash shell script for handling setting of [Jupyter Notebook](http://jupyter.org/
 
 To be used in an active Python virtual environment.
 
-Creates $VIRTUAL_ENV/.jupyter and $VIRTUAL_ENV/.jupyter_data if they do not exist.
+Creates the following directories if they do not exist:
+* $VIRTUAL_ENV/.jupyter
+* $VIRTUAL_ENV/.jupyter_data
 
-### Environent Variables Handled
+Environent Variables Handled:
 * JUPYTER_CONFIG_DIR
 * JUPYTER_DATA_DIR
 
